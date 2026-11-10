@@ -17,6 +17,6 @@ Hago luces en teatro, danza, perfos y para bandas, voy a un taller de pintura, a
 
 Estoy cursando la carrera de Disenio de Iluminación de Espectáculos en la UNA, y soy técnica en el área de luces en el Centro Cultural Domingo Faustino Sarmiento, ex-CCK.
 
-[Acá](https://www.alternativateatral.com/persona316524) está mi cv de Alternativa teatral
+**[Acá](https://www.alternativateatral.com/persona316524)** está mi cv de Alternativa teatral
 
 </div>
