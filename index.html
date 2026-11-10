@@ -7,7 +7,6 @@ layout: default
   <p class="intro-more">
     {% assign albums = site.albums | sort: "order" %}
     {% assign first_album = albums | first %}
-    {% if first_album %}<a href="{{ first_album.url | relative_url }}">Ver obras &rarr;</a><br>{% endif %}
-    <a href="{{ '/sobre-mi/' | relative_url }}">Sobre mí &rarr;</a>
+
   </p>
 </div>
