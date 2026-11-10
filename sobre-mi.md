@@ -13,11 +13,10 @@ CAMBIAR: escribí acá tu bio. Abajo hay un ejemplo de lista de muestras;
 copiá el formato o borralo. Este comentario no se ve en el sitio.
 {% endcomment %}
 
-Lía Bianchi es artista visual. Nació en Buenos Aires en 1995 y vive y trabaja en Buenos Aires.
+Hago luces en teatro, danza, perfos y para bandas, voy a un taller de pintura, a veces doy clases de cómo armar instalaciones lumínicas. 
 
-### Muestras
+Estoy cursando la carrera de Disenio de Iluminación de Espactéculos en la UNA, y soy técnica en el área de luces en el Centro Cultural Domingo Faustino Sarmiento, ex-CCK.
 
-- Nombre de la muestra, lugar, año
-- Nombre de la muestra, lugar, año
+[Acál](https://www.alternativateatral.com/persona316524) está mi cv de Alternativa teatral
 
 </div>
