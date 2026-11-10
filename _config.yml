@@ -7,11 +7,11 @@
 title: Lía Bianchi
 
 # CAMBIAR: la línea chica debajo del nombre.
-tagline: artes visuales
+tagline: 
 
 # CAMBIAR: el texto de la página de inicio.
-intro: "Pintura y otras obras."
-intro_place: "Buenos Aires"
+intro: "la cosa visual"
+intro_place:
 
 # CAMBIAR: los links que aparecen en el menú, debajo de las series de obras.
 # Se pueden agregar, borrar o reordenar. Cada uno necesita name y url.
@@ -19,10 +19,10 @@ intro_place: "Buenos Aires"
 links:
   - name: sobre mí
     url: /sobre-mi/
-  - name: instagram
-    url: https://www.instagram.com/TU-USUARIO
+  - name: telegram
+    url: https://t.me/liucha
   - name: contacto
-    url: mailto:TU-EMAIL@ejemplo.com
+    url: mailto:liliuuchacha@protonmail.com
 
 # CAMBIAR: la dirección del sitio.
 #   Repo llamado  TU-USUARIO.github.io  -> url: https://TU-USUARIO.github.io   baseurl: ""
