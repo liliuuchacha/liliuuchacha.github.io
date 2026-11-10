@@ -11,6 +11,8 @@ folder: /photos/pinturas
 # Ficha de cada obra: se ve al abrir la foto. Usá el nombre exacto del archivo.
 # Un formato común: Título, técnica, medidas, año.
 captions:
-  placeholder-01.jpg: "Sin título. Acrílico sobre tela, 50 × 70 cm, 2025."
-  placeholder-02.jpg: "Título de la obra. Óleo sobre tela, 60 × 60 cm, 2024."
+  01-moura.jpg: "Fede Moura. Óleo sobre papel, 2024."
+  02-moura.jpg: "Fede Moura (detalle). Óleo sobre papel, 2024."
+  03-moura.jpg: "Fede Moura (detalle). Óleo sobre papel, 2024."
+  04-moura.jpg: "Fede Moura (detalle). Óleo sobre papel, 2024."
 ---
