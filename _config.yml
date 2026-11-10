@@ -19,10 +19,8 @@ intro_place:
 links:
   - name: sobre mí
     url: /sobre-mi/
-  - name: telegram
-    url: https://t.me/liucha
   - name: contacto
-    url: mailto:liliuuchacha@protonmail.com
+    url: /contacto/
 
 # CAMBIAR: la dirección del sitio.
 #   Repo llamado  TU-USUARIO.github.io  -> url: https://TU-USUARIO.github.io   baseurl: ""
