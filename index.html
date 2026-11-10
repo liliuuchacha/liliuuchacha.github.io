@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="intro">
+  <p class="intro-text">{{ site.intro }}</p>
+  {% if site.intro_place %}<p class="intro-place">{{ site.intro_place }}</p>{% endif %}
+  <p class="intro-more">
+    {% assign albums = site.albums | sort: "order" %}
+    {% assign first_album = albums | first %}
+    {% if first_album %}<a href="{{ first_album.url | relative_url }}">Ver obras &rarr;</a><br>{% endif %}
+    <a href="{{ '/sobre-mi/' | relative_url }}">Sobre mí &rarr;</a>
+  </p>
+</div>

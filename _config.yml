@@ -1,0 +1,52 @@
+# =====================================================================
+#  EMPEZÁ POR ACÁ. Todo lo marcado con CAMBIAR se puede editar.
+#  Después de guardar (commit), GitHub actualiza el sitio en un minuto.
+# =====================================================================
+
+# CAMBIAR: el nombre grande arriba del menú y en la pestaña del navegador.
+title: Lía Bianchi
+
+# CAMBIAR: la línea chica debajo del nombre.
+tagline: artes visuales
+
+# CAMBIAR: el texto de la página de inicio.
+intro: "Pintura y otras obras."
+intro_place: "Buenos Aires"
+
+# CAMBIAR: los links que aparecen en el menú, debajo de las series de obras.
+# Se pueden agregar, borrar o reordenar. Cada uno necesita name y url.
+# Los que empiezan con / son páginas de este mismo sitio.
+links:
+  - name: sobre mí
+    url: /sobre-mi/
+  - name: instagram
+    url: https://www.instagram.com/TU-USUARIO
+  - name: contacto
+    url: mailto:TU-EMAIL@ejemplo.com
+
+# CAMBIAR: la dirección del sitio.
+#   Repo llamado  TU-USUARIO.github.io  -> url: https://TU-USUARIO.github.io   baseurl: ""
+#   Repo con otro nombre (ej. arte)     -> url: https://TU-USUARIO.github.io   baseurl: "/arte"
+url: "https://TU-USUARIO.github.io"
+baseurl: ""
+
+lang: es
+
+# ---------------------------------------------------------------------
+#  De acá para abajo no hace falta tocar nada.
+# ---------------------------------------------------------------------
+collections:
+  albums:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      type: albums
+    values:
+      layout: album
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

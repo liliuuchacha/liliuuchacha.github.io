@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'es' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.title }}, {{ site.tagline }}. {{ site.intro }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="page">
+    <nav class="sidebar">
+      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      {% if site.tagline %}<p class="tagline">{{ site.tagline }}</p>{% endif %}
+
+      <ul class="album-list">
+        {% assign albums = site.albums | sort: "order" %}
+        {% for album in albums %}
+          <li><a href="{{ album.url | relative_url }}"{% if album.url == page.url %} class="active"{% endif %}>{{ album.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <hr>
+
+      <ul class="link-list">
+        {% for link in site.links %}
+          {% assign first = link.url | slice: 0 %}
+          {% if first == "/" %}{% assign href = link.url | relative_url %}{% else %}{% assign href = link.url %}{% endif %}
+          <li><a href="{{ href }}"{% if link.url == page.url %} class="active"{% endif %}>{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

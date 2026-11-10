@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<h2 class="album-title">{{ page.title }}</h2>
+
+{% if content != "" %}
+<div class="album-info">
+  {{ content }}
+</div>
+{% endif %}
+
+{% assign folder = page.folder | append: "/" %}
+{% assign files = site.static_files | sort: "name" %}
+<div class="album">
+  {% for file in files %}
+    {% assign ext = file.extname | downcase %}
+    {% if file.path contains folder %}{% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" or ext == ".gif" %}
+      {% assign caption = page.captions[file.name] %}
+      <a class="album-item" href="{{ file.path | relative_url }}">
+        <img src="{{ file.path | relative_url }}" alt="{{ caption | default: page.title | escape }}">
+        {% if caption %}<span class="pswp-caption-content">{{ caption }}</span>{% endif %}
+      </a>
+    {% endif %}{% endif %}
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe-dynamic-caption-plugin@1.2.7/photoswipe-dynamic-caption-plugin.css">
+<script type="module">
+  import PhotoSwipeLightbox from "https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js";
+  import PhotoSwipeDynamicCaption from "https://cdn.jsdelivr.net/npm/photoswipe-dynamic-caption-plugin@1.2.7/photoswipe-dynamic-caption-plugin.esm.js";
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: ".album",
+    children: "a",
+    pswpModule: () => import("https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.esm.min.js"),
+    bgOpacity: 1,
+    padding: { top: 20, bottom: 20, left: 20, right: 20 },
+    zoom: false,
+    closeTitle: "Cerrar",
+    arrowPrevTitle: "Anterior",
+    arrowNextTitle: "Siguiente",
+    errorMsg: "No se pudo cargar la imagen",
+  });
+
+  // The grid shows the full-size file, so the browser already knows each
+  // photo's real size; no need to type widths and heights by hand.
+  lightbox.addFilter("domItemData", (itemData, element, linkEl) => {
+    const img = linkEl.querySelector("img");
+    itemData.width = img.naturalWidth || 1600;
+    itemData.height = img.naturalHeight || 1067;
+    return itemData;
+  });
+
+  new PhotoSwipeDynamicCaption(lightbox, { type: "auto" });
+  lightbox.init();
+</script>

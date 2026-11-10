@@ -1,0 +1,102 @@
+/* CAMBIAR: colores. Cambiando estos valores cambia todo el sitio. */
+:root {
+  --background: #ffffff;
+  --text: #000000;
+  --muted: #6b6b6b;
+  --link-hover: #a5a5a5;
+  --rule: #08080f;
+  --photo-columns: 3;     /* CAMBIAR: cuántas columnas de fotos en pantalla grande */
+  --photo-width: 250px;   /* CAMBIAR: ancho de cada columna de fotos */
+  --photo-gap: 10px;      /* CAMBIAR: espacio entre fotos */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a { color: var(--text); text-decoration: none; }
+a:hover, a.active { color: var(--link-hover); }
+
+.page {
+  display: flex;
+  gap: 4%;
+  max-width: 1050px;
+  padding: 0 24px;
+  margin: 3.5em auto;
+}
+
+.sidebar { flex: 0 0 170px; }
+.content { flex: 1; min-width: 0; }
+
+.site-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 3.3rem;
+  line-height: 0.95;
+  margin: 0;
+}
+
+.tagline { margin: 0.3em 0 1.4em; color: var(--muted); font-size: 0.95rem; }
+
+.sidebar ul { list-style: none; margin: 0; padding: 0; }
+.sidebar li { margin: 0; line-height: 1.35; padding: 0.15em 0; }
+.sidebar hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5em 0; }
+
+
+.album-title {
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.1;
+  margin: 0.1em 0 0.5em;
+}
+
+.album-info { max-width: 60ch; margin-bottom: 1.6em; }
+.album-info p { margin: 0 0 1em; }
+
+
+.intro { padding-top: 0.4em; }
+.intro-text { font-weight: 300; font-size: 2.2rem; line-height: 1.2; max-width: 18em; margin: 0 0 0.4em; }
+.intro-place { color: var(--muted); margin: 0 0 2em; }
+
+.about { max-width: 62ch; }
+.about h2 { font-weight: 300; font-size: 2.2rem; line-height: 1.1; margin: 0.1em 0 0.6em; }
+.about h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  margin: 1.6em 0 0.3em;
+}
+.about ul { padding-left: 1.1em; margin: 0; }
+.about li { margin-bottom: 0.25em; }
+
+/* Grilla tipo mosaico: las fotos bajan por columnas y cada una mantiene su forma. */
+.album {
+  columns: var(--photo-columns) var(--photo-width);
+  column-gap: var(--photo-gap);
+  max-width: calc(var(--photo-columns) * (var(--photo-width) + var(--photo-gap)));
+}
+.album-item {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: var(--photo-gap);
+}
+.album-item img { display: block; width: 100%; height: auto; }
+.album-item .pswp-caption-content { display: none; }
+
+/* Celulares: el menú pasa arriba de las fotos. */
+@media (max-width: 768px) {
+  .page { flex-direction: column; padding: 0 16px; margin: 1.5em auto; gap: 0; }
+  .sidebar { flex: none; margin-bottom: 1.5em; }
+  .site-title { font-size: 3rem; }
+  .album-list li, .link-list li { display: inline-block; margin-right: 1em; }
+  .sidebar hr { margin: 0.8em 0; }
+  .intro-text { font-size: 1.7rem; }
+}
