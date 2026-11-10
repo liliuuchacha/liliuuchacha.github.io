@@ -6,8 +6,7 @@ permalink: /contacto/
 
 <div class="about" markdown="1">
 
-iluminar tu perfo? comisionar una instalación de luces? venderte una pintu? dar clases? 
-
+querés que ilumine tu perfo? comisionarme una instalación de luces? venderte una pintu? darte clases? 
 pasar a saludar y preguntarme cómo estuvo mi día? 
 
 todo eso por estos medios:
