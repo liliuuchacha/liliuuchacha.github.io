@@ -6,10 +6,10 @@ permalink: /contacto/
 
 <div class="about" markdown="1">
 
-laburos de luces? comisiones? venta de obras? clases? pasar a saludar y preguntarme cómo estuvo mi día? 
+iluminar tu perfo? comisionar una instalación de luces? venderte una pintu? dar clases? pasar a saludar y preguntarme cómo estuvo mi día? 
 todo eso por estos medios:
 
-* **Telegram**: [t.me/TU-USUARIO](https://t.me/liucha)
-* **Email:** [liliuuchacha@protonmail.com](mailto:liliuuchacha@protonmail.com)
+[**Telegram**](https://t.me/liucha)
+[**Email**](mailto:liliuuchacha@protonmail.com)
 
 </div>
