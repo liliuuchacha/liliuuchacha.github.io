@@ -42,6 +42,6 @@ captions:
   48-repo.jpg: "Reposera (detalle). Óleo sobre cartón, 2024."
   49-repo.jpg: "Reposera (detalle). Óleo sobre cartón, 2024."
   50-cielo.jpg: "Cielo. Óleo sobre papel, 2024."
-  51-pagina.jpg: "pov sos una palta. Óleo sobre papel, 2024."
-  52-pagina.jpg: "nomeacuerdodequepeliculaera. Óleo sobre papel, 2024."
+  51-pagina.jpg: "pov sos una palta. Acrílico sobre papel, 2024."
+  52-pagina.jpg: "nomeacuerdodequepeliculaera. Acrílico sobre papel, 2024."
 ---
