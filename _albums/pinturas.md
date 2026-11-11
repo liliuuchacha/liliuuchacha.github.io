@@ -1,6 +1,6 @@
 ---
 # CAMBIAR: el nombre de la serie o grupo de obras.
-title: Pinturas
+title: pinturas
 
 # CAMBIAR: posición en el menú. 1 va arriba de todo.
 order: 1
