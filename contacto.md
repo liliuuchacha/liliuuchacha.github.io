@@ -3,7 +3,7 @@ layout: default
 title: contacto
 permalink: /contacto/
 ---
-## Contacto
+## contacto
 <div class="about" markdown="1">
 
 querés que ilumine tu perfo? comisionarme una instalación de luces? venderte una pintu? darte clases? 
