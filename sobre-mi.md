@@ -3,10 +3,8 @@ layout: default
 title: Sobre mí
 permalink: /sobre-mi/
 ---
-
-<div class="about" markdown="1">
-
 ## Sobre mí
+<div class="about" markdown="1">
 
 {% comment %}
 CAMBIAR: escribí acá tu bio. Abajo hay un ejemplo de lista de muestras;
