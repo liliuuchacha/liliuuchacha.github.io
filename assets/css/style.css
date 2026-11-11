@@ -51,9 +51,9 @@ a:hover, a.active { color: var(--link-hover); }
 
 
 .album-title {
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.1;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1;
   margin: 0.1em 0 0.5em;
 }
 
@@ -62,11 +62,11 @@ a:hover, a.active { color: var(--link-hover); }
 
 
 .intro { padding-top: 0.4em; }
-.intro-text { font-weight: 300; font-size: 2rem; line-height: 1.2; max-width: 18em; margin: 0 0 0.4em; }
+.intro-text { font-weight: 250; font-size: 1rem; line-height: 1.2; max-width: 18em; margin: 0 0 0.4em; }
 .intro-place { color: var(--muted); margin: 0 0 2em; }
 
 .about { max-width: 62ch; }
-.about h2 { font-weight: 300; font-size: 1rem; line-height: 1.1; margin: 0.1em 0 0.6em; }
+.about h2 { font-weight: 200; font-size: 1rem; line-height: 1; margin: 0.1em 0 0.6em; }
 .about h3 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
