@@ -7,7 +7,7 @@
   --rule: #08080f;
   --photo-columns: 3;     /* CAMBIAR: cuántas columnas de fotos en pantalla grande */
   --photo-width: 250px;   /* CAMBIAR: ancho de cada columna de fotos */
-  --photo-gap: 10px;      /* CAMBIAR: espacio entre fotos */
+  --photo-gap: 8px;      /* CAMBIAR: espacio entre fotos */
 }
 
 * { box-sizing: border-box; }
@@ -38,7 +38,7 @@ a:hover, a.active { color: var(--link-hover); }
 .site-title {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-size: 3.3rem;
+  font-size: 3rem;
   line-height: 0.95;
   margin: 0;
 }
@@ -52,7 +52,7 @@ a:hover, a.active { color: var(--link-hover); }
 
 .album-title {
   font-weight: 300;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.1;
   margin: 0.1em 0 0.5em;
 }
@@ -62,11 +62,11 @@ a:hover, a.active { color: var(--link-hover); }
 
 
 .intro { padding-top: 0.4em; }
-.intro-text { font-weight: 300; font-size: 2.2rem; line-height: 1.2; max-width: 18em; margin: 0 0 0.4em; }
+.intro-text { font-weight: 300; font-size: 2rem; line-height: 1.2; max-width: 18em; margin: 0 0 0.4em; }
 .intro-place { color: var(--muted); margin: 0 0 2em; }
 
 .about { max-width: 62ch; }
-.about h2 { font-weight: 300; font-size: 2.2rem; line-height: 1.1; margin: 0.1em 0 0.6em; }
+.about h2 { font-weight: 300; font-size: 2rem; line-height: 1.1; margin: 0.1em 0 0.6em; }
 .about h3 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
