@@ -16,7 +16,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--text);
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto Mono", ExtraLight 200;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -36,7 +36,7 @@ a:hover, a.active { color: var(--link-hover); }
 .content { flex: 1; min-width: 0; }
 
 .site-title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Roboto Mono", Regular 400;
   font-weight: 400;
   font-size: 3rem;
   line-height: 0.95;
@@ -68,7 +68,7 @@ a:hover, a.active { color: var(--link-hover); }
 .about { max-width: 62ch; }
 .about h2 { font-weight: 200; font-size: 1rem; line-height: 1; margin: 0.1em 0 0.6em; }
 .about h3 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Roboto Mono", Regular 400;
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.02em;
