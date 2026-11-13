@@ -11,8 +11,8 @@ pasar a saludar y preguntarme cómo estuvo mi día?
 
 todo eso por estos medios:
 
-[**telegram**](https://t.me/liucha)
+[*telegram*](https://t.me/liucha)
 
-[**email**](mailto:liliuuchacha@protonmail.com)
+[*email*](mailto:liliuuchacha@protonmail.com)
 
 </div>
