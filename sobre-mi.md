@@ -17,6 +17,6 @@ también hago luces en teatro, danza, perfos y para bandas
 
 a veces doy clases sobre cómo armar instalaciones lumínicas
 
-[*acá*](https://www.alternativateatral.com/persona316524) están algunos de mis laburos en iluminación
+[*acá*](https://www.alternativateatral.com/persona316524-) están algunos de mis laburos en iluminación
 
 </div>
