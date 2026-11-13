@@ -17,7 +17,7 @@ body {
   background: var(--background);
   color: var(--text);
   font-family: "Roboto Mono", monospace;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 16px;
   line-height: 1.6;
 }
