@@ -13,6 +13,6 @@ copiá el formato o borralo. Este comentario no se ve en el sitio.
 
 voy a un taller de pintura, pero también hago luces en teatro, danza, perfos y para bandas, y a veces doy clases sobre cómo armar instalaciones lumínicas
 
-<a href="https://www.alternativateatral.com/persona316524"><strong>acá</strong></a> están algunos de mis laburos en iluminación
+<a href="https://www.alternativateatral.com/persona316524-"><strong>acá</strong></a> están algunos de mis laburos en iluminación
 
 </div>
