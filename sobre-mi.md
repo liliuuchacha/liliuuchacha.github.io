@@ -11,10 +11,8 @@ CAMBIAR: escribí acá tu bio. Abajo hay un ejemplo de lista de muestras;
 copiá el formato o borralo. Este comentario no se ve en el sitio.
 {% endcomment %}
 
-hago luces en teatro, danza, perfos y para bandas, voy a un taller de pintura, a veces doy clases sobre cómo armar instalaciones lumínicas. 
+voy a un taller de pintura, pero también hago luces en teatro, danza, perfos y para bandas, y a veces doy clases sobre cómo armar instalaciones lumínicas
 
-estoy cursando la carrera de diseño de iluminación de espectáculos en la UNA, y soy técnica en el área de luces en el Centro Cultural Domingo Faustino Sarmiento, ex-CCK.
-
-**[acá](https://www.alternativateatral.com/persona316524)** está mi cv de alternativa teatral
+**[acá](https://www.alternativateatral.com/persona316524)** están algunos de mis laburos en iluminación
 
 </div>
